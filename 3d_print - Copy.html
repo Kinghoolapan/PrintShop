@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title> 3D printer WEB SITE </title>
+  <link rel="stylesheet" href="3d.css">
+</head>
+<body>
+
+
+
+<div  id = "header" > <h1>The Printer Bot Website <h1>
+    <p> Welcome </p>
+  </div>
+
+
+<div id="img">
+  <img src="img/print.jpg" alt="cool" width= "200px" height= "200"  >
+</div>
+
+
+<div class="topnav">
+  <a href="news.html">News</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+</div>
+
+
+
+
+  </body>
+
+  <div id="root"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+  <script type="text/babel">
+
+
+
+  class Greeting extends React.Component {
+      render() {
+          return (
+
+
+
+            <body>
+
+
+
+            <div  id = "header" > <h1>The Printer Bot Website <h1>
+                <p> Welcome </p>
+              </div>
+
+
+            <div id="img">
+              <img src="img/print.jpg" alt="cool" width= "200px" height= "200"  >
+            </div>
+
+
+            <div class="topnav">
+              <a href="news.html">News</a>
+              <a href="contact.html">Contact</a>
+              <a href="about.html">About</a>
+            </div>
+
+
+
+
+              </body>
+
+
+
+
+
+
+
+          ]);
+      }
+  }
+  ReactDOM.render(
+      <Greeting />,
+      document.getElementById('root')
+  );
+  </script>
+
+  </body>
+
+   </html>
